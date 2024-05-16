@@ -1,0 +1,136 @@
+.First_section {
+  background-image: url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  .text {
+    position: absolute;
+    top: 100px;
+    left: 850px;
+  }
+}
+.First_section .text h1 {
+  font-family: "Mukta", sans-serif;
+  font-size: 50px;
+}
+.First_section .text p {
+  font-family: "Mukta", sans-serif;
+  font-size: 20px;
+}
+.First_section .text button {
+  padding: 10px;
+  background-color: #7971ea;
+  border: none;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  transition: calc(0.4s);
+  border-radius: 5px;
+}
+.First_section .text button:hover {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.first_prob {
+  display: flex;
+  justify-content: center;
+  padding: 50px 30px;
+  gap: 20px;
+  i {
+    font-size: 40px;
+    color: #7971ea;
+  }
+  .first_prob_text {
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 16px;
+      color: #8c92a0;
+    }
+  }
+}
+.main_first {
+  border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.second_image {
+  padding-top: 50px;
+  position: relative;
+  img {
+    width: 100%;
+    height: 450px;
+  }
+  .collection {
+    position: absolute;
+    bottom: 30px;
+    right: 300px;
+    color: rgb(63, 138, 213);
+  }
+}
+
+.products {
+  padding-top: 70px;
+  margin-top: 70px;
+  background-color: #f8f9fa;
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.discount h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+.discount .textt {
+  text-align: center;
+  padding-top: 100px;
+  h4 {
+    color: #7971ea;
+    font-family: "Mukta", sans-serif;
+    font-size: 32px;
+  }
+  p {
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+    color: #8c92a0;
+  }
+  span {
+    color: #8c92a0;
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+  }
+  button {
+    padding: 10px;
+    background-color: #7971ea;
+    border: none;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    transition: calc(0.4s);
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: #007bff;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    color: white;
+  }
+
+}
+.discount .image img {
+  width: 100%;
+}
